@@ -1,0 +1,54 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - grunt-contrib-compress > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - grunt-contrib-watch > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - mock-knex > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - grunt-contrib-clean > async > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - grunt-contrib-watch > async > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - grunt-subgrunt > async > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - eslint > @eslint/eslintrc > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - eslint > table > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - rewire > eslint > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - grunt > grunt-legacy-log > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - grunt-contrib-compress > archiver > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - grunt-contrib-compress > archiver > async > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - rewire > eslint > table > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - rewire > eslint > inquirer > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - eslint-plugin-ghost > eslint-plugin-sort-imports-es6-autofix > eslint > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - grunt-contrib-compress > archiver > archiver-utils > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - grunt-contrib-compress > archiver > zip-stream > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - grunt-contrib-watch > gaze > globule > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - grunt-mocha-cli > mocha > yargs-unparser > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - eslint-plugin-ghost > eslint-plugin-sort-imports-es6-autofix > eslint > table > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - eslint-plugin-ghost > eslint-plugin-sort-imports-es6-autofix > eslint > inquirer > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
+    - grunt-contrib-compress > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2022-08-19T18:10:04.162Z'
