@@ -162,7 +162,7 @@
     "grunt-update-submodules": "0.4.1",
     "jwks-rsa": "1.10.1",
     "mocha": "8.2.0",
-    "mock-knex": "0.4.9",
+    "mock-knex": "0.4.12",
     "nock": "13.0.4",
     "papaparse": "5.3.0",
     "proxyquire": "2.1.3",
